@@ -1,0 +1,73 @@
+body{
+    padding: 2rem;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.header{
+    height: 13.5rem;
+    width: 100%;
+    background-color: #27292f;
+    position: relative;
+}
+
+.header__logo-box{
+    position: absolute;
+    top: 3rem;
+    left: 2rem;
+}
+
+.banner__desc-button{
+    float: right;
+}
+
+/*custom grid layout*/
+.row {
+    width: 100%;
+    padding: 0 2rem;
+}
+    .row:not(:last-child) {
+      margin-bottom: 3rem; 
+    }
+    .row::after {
+      content: "";
+      display: table;
+      clear: both; 
+    }
+    .row [class^="col-"] { /*^ selects everything starting from "col-" (in this case)*/
+      float: left; 
+    }
+      .row [class^="col-"]:not(:last-child) {
+        margin-right: 3rem; 
+    }
+    .row .col-1-of-3 {
+      width: calc((100% - 2*3rem) / 3); 
+    }
+    .row .col-1-of-4 {
+      width: calc((100% - 3*3rem) / 4); 
+    }
+
+.services{
+    padding: 8rem 0;
+}
+
+.service-photo{
+    height: 10rem;
+}
+
+.indonectetus-photo{
+    width: 30%;
+}
+
+.indonectetus-photo{
+    width: 100%;
+}
+
+.footer{
+    margin-top: 8rem;
+    background-color: #eeeeee;
+}
+
+.footer__main{
+    padding: 5rem 0;
+}

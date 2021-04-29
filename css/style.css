@@ -14,21 +14,18 @@ html{
 /*header*/
 .header__search{
     position: absolute;
-    top: 3rem;
-    right: 2rem;
-    height: 2.5rem;
-    width: 21rem;
-    border-radius: 2rem;
-    background-color: #1f232c;
 }
 
 .search-area{
     border: 0;
-    background-color: transparent;
+    padding: .8rem 1.1rem;
+    background-color: #1f232c;
     color: #cccccc;
     margin-left: 1.5rem;
     margin-top: .4rem;
     text-align: left;
+    border-radius: 2rem;
+    width: 21rem;
 }
 
 .search-area:focus{
@@ -46,27 +43,30 @@ html{
     display: inline-block;
     color: #cccccc;
     text-transform: uppercase;
-    font-size: 1.6rem;
     padding: 0 1.2rem;
+}
+
+.header__nav li:last-child{
+    padding-right: 0;
+}
+
+.header__nav li a{
+    font-size: 1.6rem;
+}
+
+.header__nav li a:hover{
+    text-decoration: underline;
+}
+
+.header__search-text, .search-area{
+    display: none;
 }
 
 .header__search-button{
     position: absolute;
     right: 1rem;
-    bottom: .1rem;
-}
-
-.btn{
-    border: none;
+    bottom: .4rem;
     cursor: pointer;
-}
-
-.search-button{
-    height: 2rem;
-    width: 2rem;
-    align-items: center;
-    border-radius: 50%;
-    background-color: #1f232c;
 }
 
 .search{
@@ -85,24 +85,29 @@ html{
     border-bottom: .5rem solid #dadada;
 }
 
+.banner__desc-button{
+    float: left;
+}
+
 .banner__desc-text{
-    font-size: 3.2rem;
-    width: 66%;
+    font-size: 1.6rem;
+    text-align: left;
+    margin-bottom: 1rem;
 }
 
 .contact-button{
     font-family: inherit;
-    font-size: 2.5rem;
+    font-size: 1rem;
     padding: 1.9rem 1.2rem;
     background-color: #1f232c;
     text-transform: uppercase;
     color: #e1dada;
     border-radius: .8rem;
+    cursor: pointer;
 }
 
 .service-desc{
     font-size: 1.3rem;
-    width: 18rem;
 }
 
 .service-title{
@@ -193,6 +198,7 @@ html{
     background-color: #27292f;
     color: #737373;
     padding: 2.4rem 2rem;
+    text-align: center;
 }
 
 .bottom-left:hover, .bottom-right:hover{

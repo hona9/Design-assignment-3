@@ -1,9 +1,48 @@
-@media screen and (min-width:480px){
-    
+@media screen and (min-width: 480px){
+    .header__search-text, .search-area{
+        display: block;
+    }
+    .header__search{
+        top: 3rem;
+        right: 2rem;
+    }
+    .banner__desc-text{
+        float: left;
+        font-size: 2rem;
+        width: 66%;
+    }
+    .banner__desc-button{
+        float: right;
+    }
+    .contact-button{
+        font-size: 1.1rem;
+    }
+    .banner__desc-button{
+        float: right;
+    }
+    .services{
+        padding: 8rem 0;
+    }
 }
 
 @media screen and (min-width: 768px){
-
+    .bottom-left{
+        float: left;
+    }
+    
+    .bottom-right{
+        float: right;
+    }
+    .banner__desc-text{
+        font-size: 2.8rem;
+    }
+    .contact-button{
+        font-size: 2.2rem;
+    }
+    .service-desc{
+        margin-left: .4rem;
+        width: 60%;
+    }
 }
 
 @media screen and (min-width: 992px){
@@ -16,12 +55,10 @@
     .header__nav-wrap{
         display: block;
     }
-
-    .bottom-left{
-        float: left;
+    .banner__desc-text{
+        font-size: 3.2rem;
     }
-    
-    .bottom-right{
-        float: right;
+    .contact-button{
+        font-size: 2.5rem;
     }
 }

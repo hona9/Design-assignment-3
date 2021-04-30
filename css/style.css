@@ -2,7 +2,6 @@ html{
     font-size: 50%;
 }
 
-
 /*utils*/
 .float-right{
     float: right;
@@ -42,7 +41,7 @@ html{
 .search{
     height: 4rem;
     border-radius: 50%;
-    margin-top: -.9rem;
+    margin-top: -1rem;
 }
 
 .header__nav-wrap{
@@ -190,7 +189,7 @@ html{
 
 .readmore{
     color: black;
-    float: right;
+    float: unset;
 }
 
 .readmore:hover{

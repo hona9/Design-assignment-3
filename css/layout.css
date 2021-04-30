@@ -82,6 +82,11 @@ body{
 
 .service-desc{
     float: left;
+    max-width: 25rem;
+}
+
+.service-photo{
+    min-height: 13rem;
 }
 
 h1{

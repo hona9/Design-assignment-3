@@ -23,6 +23,12 @@
     .services{
         padding: 8rem 0;
     }
+    .search{
+        height: auto;
+        margin-top: 0;
+    }
+    .service-desc{
+        font-size: 2.0rem;
 }
 
 @media screen and (min-width: 768px){
@@ -49,8 +55,9 @@
         font-size: 2.2rem;
     }
     .service-desc{
-        margin-left: .4rem;
         width: 60%;
+        font-size: 3rem;
+        padding-left: 2rem;
     }
     .col-details{
         margin-top: 3rem;
@@ -83,6 +90,10 @@
     .row:not(:last-child) {
         margin-bottom: 3rem; 
     }
+    .service-desc{
+        font-size: 1.6rem;
+        float: left;
+    }
 }
 
 @media screen and (min-width: 992px){
@@ -106,5 +117,11 @@
     }
     .header__logo-box{
         margin-top: 5.1rem;
+    }
+    .header__hamburger{
+        display: none;
+    }
+    .search-wrap{
+        margin-right: 0;
     }
 }

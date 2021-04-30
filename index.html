@@ -19,11 +19,16 @@
         </div>
         <div class="right-container float-right">
             <div class="header__search clearfix">
-                <div class="header__search-text float-left">
-                    <input type="text" placeholder="Search Term Here" class="search-area">
+                <div class="search-wrap float-left">
+                    <div class="header__search-text float-left">
+                        <input type="text" placeholder="Search Term Here" class="search-area">
+                    </div>
+                    <div class="header__search-button float-left">
+                        <a href="#"><input type="image" src="img/search-button.gif" class="search"></a>
+                    </div>
                 </div>
-                <div class="header__search-button float-left">
-                    <a href="#"><input type="image" src="img/search-button.gif" class="search"></a>
+                <div class="header__hamburger float-left">
+                    <a href="#"><input type="image" src="img/hamburger-icon.svg" class="menu"></a>
                 </div>
             </div>
             <div class="header__nav-wrap">
@@ -53,37 +58,39 @@
         </div>
     </section>
     <section class="services">
-        <div class="row clearfix">
-            <div class="col-1-of-3">
-                <div class="service-photo float-left">
-                    <img src="./img/100.gif" alt="service1" class="photo">
-                </div>
-                <div class="service-desc">
-                    <div class="service-wrapper">
-                        <p class="service-title">Service 1</p>
-                        <p>Nullamlacus dui ipsum cons eque loborttis non euisque morbi penas dapi bulum</p>
+        <div class="row1">
+            <div class="row clearfix">
+                <div class="col-1-of-3">
+                    <div class="service-photo float-left">
+                        <img src="./img/100.gif" alt="service1" class="photo">
+                    </div>
+                    <div class="service-desc">
+                        <div class="service-wrapper">
+                            <p class="service-title">Service 1</p>
+                            <p class="desc">Nullamlacus dui ipsum cons eque loborttis non euisque morbi penas dapi bulum</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-1-of-3">
-                <div class="service-photo float-left">
-                    <img src="./img/100.gif" alt="service2" class="photo">
-                </div>
-                <div class="service-desc">
-                    <div class="service-wrapper">
-                        <p class="service-title">Service 2</p>
-                        <p>Nullamlacus dui ipsum cons eque loborttis non euisque morbi penas dapi bulum</p>
+                <div class="col-1-of-3">
+                    <div class="service-photo float-left">
+                        <img src="./img/100.gif" alt="service2" class="photo">
+                    </div>
+                    <div class="service-desc">
+                        <div class="service-wrapper">
+                            <p class="service-title">Service 2</p>
+                            <p class="desc">Nullamlacus dui ipsum cons eque loborttis non euisque morbi penas dapi bulum</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-1-of-3">
-                <div class="service-photo float-left">
-                    <img src="./img/100.gif" alt="service3" class="photo">
-                </div>
-                <div class="service-desc">
-                    <div class="service-wrapper">
-                        <p class="service-title">Service 3</p>
-                        <p>Nullamlacus dui ipsum cons eque loborttis non euisque morbi penas dapi bulum</p>
+                <div class="col-1-of-3">
+                    <div class="service-photo float-left">
+                        <img src="./img/100.gif" alt="service3" class="photo">
+                    </div>
+                    <div class="service-desc">
+                        <div class="service-wrapper">
+                            <p class="service-title">Service 3</p>
+                            <p class="desc">Nullamlacus dui ipsum cons eque loborttis non euisque morbi penas dapi bulum</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -173,12 +180,14 @@
                 </div>
                 <div class="col-1-of-4">
                     <span>Quick Links</span>
-                        <ul class="col-details">
+                    <div class="col-details">
+                        <ul class="details">
                             <li><a href="#">Link Text Here</a></li>
                             <li><a href="#">Link Text Here</a></li>
                             <li><a href="#">Link Text Here</a></li>
                             <li><a href="#">Link Text Here</a></li>
                         </ul>
+                    </div>
                 </div>
                 <div class="col-1-of-4">
                     <span>From the Blog</span>
@@ -193,8 +202,8 @@
                     <span>Grab Our Newsletter</span>
                     <div class="col-details">
                         <form action="#">
-                            <input type="text" placeholder="Name">
-                            <input type="text" placeholder="Email">
+                            <input type="text" placeholder="Name" class="form-input">
+                            <input type="text" placeholder="Email" class="form-input">
                             <button class="btn newsletter-btn">Submit</button>
                         </form>
                     </div>

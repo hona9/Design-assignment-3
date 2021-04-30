@@ -120,6 +120,10 @@ html{
     cursor: pointer;
 }
 
+.contact-button:hover{
+    color:#ffffff;
+}
+
 .service-desc{
     font-size: 1.6rem;
     padding-left: 2rem;

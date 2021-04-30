@@ -26,6 +26,9 @@
 }
 
 @media screen and (min-width: 768px){
+    .body{
+        padding: 2rem;
+    }
     .html{
         font-size: 62.5%;
     }
@@ -49,9 +52,6 @@
         margin-left: .4rem;
         width: 60%;
     }
-    .body{
-        padding: 2rem;
-    }
     .col-details{
         margin-top: 3rem;
         margin-bottom: 0;
@@ -74,7 +74,8 @@
         margin-bottom: 0;
     }
     .row .col-1-of-4 {
-        width: calc((100% - 3*3rem) / 4) !important; 
+        width: calc((100% - 3*3rem) / 4) !important;
+        margin-bottom: 0;
     }
     .row:not(:last-child) {
         margin-bottom: 3rem; 
@@ -88,6 +89,9 @@
     html{
         font-size: 62.5%;
     }
+    .body{
+        padding: 2rem;
+    }
     .header__logo-box{
         top: 5rem;
     }
@@ -99,5 +103,8 @@
     }
     .contact-button{
         font-size: 2.5rem;
+    }
+    .header__logo-box{
+        margin-top: 5.1rem;
     }
 }

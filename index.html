@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/title-logo.png">
+
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/layout.css">
     <link rel="stylesheet" href="./css/style.css">
@@ -11,16 +13,17 @@
     <title>Final Design</title>
 </head>
 <body>
-    <header class="header">
-        <div class="header__logo-box">
+    <header class="header clearfix">
+        <div class="header__logo-box float-left">
             <img src="./img/logo.gif" alt="Lifestyle-logo" class="logo">
         </div>
-            <div class="header__search">
-                <div class="header__search-text">
+        <div class="right-container float-right">
+            <div class="header__search clearfix">
+                <div class="header__search-text float-left">
                     <input type="text" placeholder="Search Term Here" class="search-area">
                 </div>
-                <div class="header__search-button">
-                    <input type="image" src="./img/search-button.gif" alt="search" class="search">
+                <div class="header__search-button float-left">
+                    <a href="#"><input type="image" src="img/search-button.gif" class="search"></a>
                 </div>
             </div>
             <div class="header__nav-wrap">
@@ -32,6 +35,7 @@
                     <li><a href="#">gallery</a></li>
                 </ul>
             </div>
+        </div>
     </header>
     <section class="banner">
         <div class="banner__photo">
@@ -54,7 +58,7 @@
                 <div class="service-photo float-left">
                     <img src="./img/100.gif" alt="service1" class="photo">
                 </div>
-                <div class="service-desc float-right">
+                <div class="service-desc">
                     <div class="service-wrapper">
                         <p class="service-title">Service 1</p>
                         <p>Nullamlacus dui ipsum cons eque loborttis non euisque morbi penas dapi bulum</p>
@@ -65,7 +69,7 @@
                 <div class="service-photo float-left">
                     <img src="./img/100.gif" alt="service2" class="photo">
                 </div>
-                <div class="service-desc float-right">
+                <div class="service-desc">
                     <div class="service-wrapper">
                         <p class="service-title">Service 2</p>
                         <p>Nullamlacus dui ipsum cons eque loborttis non euisque morbi penas dapi bulum</p>
@@ -76,7 +80,7 @@
                 <div class="service-photo float-left">
                     <img src="./img/100.gif" alt="service3" class="photo">
                 </div>
-                <div class="service-desc float-right">
+                <div class="service-desc">
                     <div class="service-wrapper">
                         <p class="service-title">Service 3</p>
                         <p>Nullamlacus dui ipsum cons eque loborttis non euisque morbi penas dapi bulum</p>
@@ -85,10 +89,8 @@
             </div>
         </div>
     </section>
-    <div class="horizonal-container">
-        <div class="horizontal-line">
-            <p class=facilis>Indonectetus facilis</p>
-        </div>
+    <div class="horizontal-line">
+        <h1 class=facilis><span>Indonectetus facilis</span></h1>
     </div>
     <section class="indonectetus">
         <div class="row">

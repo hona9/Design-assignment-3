@@ -2,6 +2,7 @@ html{
     font-size: 50%;
 }
 
+
 /*utils*/
 .float-right{
     float: right;
@@ -12,12 +13,14 @@ html{
 }
 
 /*header*/
-.header__search{
-    position: absolute;
-}
+
 
 .logo{
     height: 4rem;
+}
+
+.header__search{
+    display: inline-block;
 }
 
 .search-area{
@@ -36,11 +39,16 @@ html{
     outline: none;
 }
 
+.search{
+    border-radius: 50%;
+}
+
 .header__nav-wrap{
-    position: absolute;
-    right: 2rem;
-    bottom: 3.6rem;
     display: none;
+}
+
+.header__nav{
+    margin-right: 2rem;
 }
 
 .header__nav li{
@@ -64,17 +72,6 @@ html{
 
 .header__search-text, .search-area{
     display: none;
-}
-
-.header__search-button{
-    position: absolute;
-    right: 1rem;
-    bottom: .4rem;
-    cursor: pointer;
-}
-
-.search{
-    border-radius: 50%;
 }
 
 /*banner*/
